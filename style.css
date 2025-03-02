@@ -1,13 +1,43 @@
+/* Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     text-align: center;
-    margin: 0;
-    padding: 0;
+    padding: 20px;
 }
 
-.logo {
-    height: 50px;
-    width: auto;
-    margin-top: 20px;
+/* Heading Styling */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
 }
+
+/* Paragraph Styling */
+p {
+    margin-bottom: 10px; /* अपनी जरूरत के हिसाब से adjust करें */
+    color: #666;
+    font-size: 16px;
+}
+
+/* Logo Container */
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Logo Styling */
+.logo {
+    width: 50px; /* अपनी जरूरत के हिसाब से */
+    height: auto;
+    margin-right: 10px;
+}
+
+/* Logo Text Styling */
+.logo-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
