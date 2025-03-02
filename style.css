@@ -12,26 +12,18 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Paragraph Styling */
-p {
-    margin-bottom: 10px; /* अपनी जरूरत के हिसाब से adjust करें */
-    color: #666;
-    font-size: 16px;
-}
-
 /* Logo Container */
 .logo-container {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    gap: 10px; /* इमेज और टेक्स्ट के बीच गैप */
 }
 
 /* Logo Styling */
 .logo {
     width: 50px; /* अपनी जरूरत के हिसाब से */
     height: auto;
-    margin-right: 10px;
 }
 
 /* Logo Text Styling */
@@ -39,5 +31,9 @@ p {
     font-size: 18px;
     font-weight: bold;
     color: #333;
+    margin: 0; /* Default margin हटाएं */
 }
+
+
+
 
